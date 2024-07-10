@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="CPPStudyTestCoding.cpp" />
     <ClCompile Include="Solution.cpp" />
+    <ClCompile Include="SolutionMethods\Tarjan.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
