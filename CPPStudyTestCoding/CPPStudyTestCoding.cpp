@@ -3,14 +3,15 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <stack>
 #include "Solution.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
     int nodeCount = 7;
     std::vector<std::vector<int>> edges({
-        {1,3},{3,1},{1,2},{2,4},{4,5},{5,6},{4,6},{6,4},{4,0}
+        {1,3},{3,1},{2,3},{1,2},{2,4},{4,5},{5,6},{4,6},{6,4},{4,0}
         });
     Solution solution;
     solution.Tarjan(nodeCount, edges);
