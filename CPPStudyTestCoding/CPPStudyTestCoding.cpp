@@ -2,10 +2,15 @@
 //
 
 #include <iostream>
+#include <vector>
+#include "Solution.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
+    std::vector<std::vector<int>> input({ {1,3},{3,1} });
+    Solution solution;
+    solution.Tarjan(input);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

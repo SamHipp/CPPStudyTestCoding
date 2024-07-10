@@ -1,10 +1,13 @@
 #include <vector>
+#include <iostream>
+#include "Solution.h"
 
-class Solution
-{
-public:
-	// Data type-specific inputs and their constructors
-	std::vector<std::vector<int>> DirectedGraphInput; // {{from, to}, {from, to}...}
-	Solution(std::vector<std::vector<int>> directedGraphInput)
-		: DirectedGraphInput(directedGraphInput) {}
-};
+//class Solution
+//{
+//public:
+//	Solution() {
+//		std::cout << "here" << std::endl;
+//	}
+//	// Solution Methods -- algorithm-specific
+//	void Tarjan(std::vector<std::vector<int>> input);
+//};
